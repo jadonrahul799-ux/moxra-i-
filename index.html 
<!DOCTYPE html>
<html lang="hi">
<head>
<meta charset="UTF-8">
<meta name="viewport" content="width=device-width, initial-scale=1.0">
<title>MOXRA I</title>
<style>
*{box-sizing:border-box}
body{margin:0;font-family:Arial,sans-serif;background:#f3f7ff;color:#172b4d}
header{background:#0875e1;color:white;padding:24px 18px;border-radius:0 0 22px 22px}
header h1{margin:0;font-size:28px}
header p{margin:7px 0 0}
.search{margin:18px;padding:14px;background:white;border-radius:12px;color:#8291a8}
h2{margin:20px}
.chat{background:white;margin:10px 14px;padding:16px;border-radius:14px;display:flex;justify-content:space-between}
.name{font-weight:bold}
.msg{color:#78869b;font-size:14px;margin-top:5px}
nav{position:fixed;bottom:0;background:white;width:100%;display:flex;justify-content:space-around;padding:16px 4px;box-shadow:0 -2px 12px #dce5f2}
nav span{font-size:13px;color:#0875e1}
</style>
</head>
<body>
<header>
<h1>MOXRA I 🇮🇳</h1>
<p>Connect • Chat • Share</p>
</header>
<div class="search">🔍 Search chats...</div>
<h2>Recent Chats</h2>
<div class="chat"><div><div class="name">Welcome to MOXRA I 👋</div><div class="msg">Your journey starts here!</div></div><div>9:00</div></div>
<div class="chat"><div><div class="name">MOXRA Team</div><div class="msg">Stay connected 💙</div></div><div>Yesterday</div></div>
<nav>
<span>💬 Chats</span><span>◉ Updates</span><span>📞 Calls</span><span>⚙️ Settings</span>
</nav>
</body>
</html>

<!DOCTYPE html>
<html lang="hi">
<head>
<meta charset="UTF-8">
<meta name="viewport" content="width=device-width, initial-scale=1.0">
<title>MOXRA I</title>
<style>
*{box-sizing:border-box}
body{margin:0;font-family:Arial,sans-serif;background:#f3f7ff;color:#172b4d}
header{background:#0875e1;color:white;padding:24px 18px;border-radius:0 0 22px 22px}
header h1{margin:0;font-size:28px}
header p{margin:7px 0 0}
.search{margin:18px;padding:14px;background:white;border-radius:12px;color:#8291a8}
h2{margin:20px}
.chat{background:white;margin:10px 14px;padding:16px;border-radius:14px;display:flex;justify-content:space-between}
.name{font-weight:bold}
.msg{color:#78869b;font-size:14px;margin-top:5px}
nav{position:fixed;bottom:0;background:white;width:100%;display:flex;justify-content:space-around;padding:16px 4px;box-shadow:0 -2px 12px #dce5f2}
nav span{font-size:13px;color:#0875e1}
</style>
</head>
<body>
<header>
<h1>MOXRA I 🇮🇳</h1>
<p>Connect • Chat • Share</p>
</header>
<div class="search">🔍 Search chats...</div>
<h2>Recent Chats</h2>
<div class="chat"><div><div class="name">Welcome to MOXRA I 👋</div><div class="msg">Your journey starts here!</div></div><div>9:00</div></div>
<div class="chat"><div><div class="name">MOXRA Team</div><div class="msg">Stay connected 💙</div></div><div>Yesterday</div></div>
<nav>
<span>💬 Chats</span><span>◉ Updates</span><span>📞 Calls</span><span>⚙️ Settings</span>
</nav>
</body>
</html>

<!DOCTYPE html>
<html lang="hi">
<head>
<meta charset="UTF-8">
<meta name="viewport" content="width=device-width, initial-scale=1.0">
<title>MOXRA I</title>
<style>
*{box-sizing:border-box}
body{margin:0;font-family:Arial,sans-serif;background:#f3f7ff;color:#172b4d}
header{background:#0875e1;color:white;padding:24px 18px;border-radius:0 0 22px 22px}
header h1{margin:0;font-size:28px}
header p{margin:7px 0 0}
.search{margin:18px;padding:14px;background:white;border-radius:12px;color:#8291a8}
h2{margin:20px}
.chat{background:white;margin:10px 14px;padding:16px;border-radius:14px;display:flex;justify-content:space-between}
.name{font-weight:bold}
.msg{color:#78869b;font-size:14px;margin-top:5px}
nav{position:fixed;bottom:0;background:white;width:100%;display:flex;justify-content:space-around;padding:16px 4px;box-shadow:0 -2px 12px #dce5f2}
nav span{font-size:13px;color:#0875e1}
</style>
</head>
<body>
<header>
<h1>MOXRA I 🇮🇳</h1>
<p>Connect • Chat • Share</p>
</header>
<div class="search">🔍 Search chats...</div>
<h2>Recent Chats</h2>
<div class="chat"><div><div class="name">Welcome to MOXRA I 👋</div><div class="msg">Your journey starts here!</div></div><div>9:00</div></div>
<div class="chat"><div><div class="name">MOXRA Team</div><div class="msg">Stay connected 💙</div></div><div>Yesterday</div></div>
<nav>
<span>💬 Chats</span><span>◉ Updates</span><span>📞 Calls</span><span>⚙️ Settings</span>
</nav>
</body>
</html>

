@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MOXRA I</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f3f7ff;color:#172b4d}
+header{background:#0875e1;color:white;padding:24px 18px;border-radius:0 0 22px 22px}
+header h1{margin:0;font-size:28px}
+header p{margin:7px 0 0}
+.search{margin:18px;padding:14px;background:white;border-radius:12px;color:#8291a8}
+h2{margin:20px}
+.chat{background:white;margin:10px 14px;padding:16px;border-radius:14px;display:flex;justify-content:space-between}
+.name{font-weight:bold}
+.msg{color:#78869b;font-size:14px;margin-top:5px}
+nav{position:fixed;bottom:0;background:white;width:100%;display:flex;justify-content:space-around;padding:16px 4px;box-shadow:0 -2px 12px #dce5f2}
+nav span{font-size:13px;color:#0875e1}
+</style>
+</head>
+<body>
+<header>
+<h1>MOXRA I 🇮🇳</h1>
+<p>Connect • Chat • Share</p>
+</header>
+<div class="search">🔍 Search chats...</div>
+<h2>Recent Chats</h2>
+<div class="chat"><div><div class="name">Welcome to MOXRA I 👋</div><div class="msg">Your journey starts here!</div></div><div>9:00</div></div>
+<div class="chat"><div><div class="name">MOXRA Team</div><div class="msg">Stay connected 💙</div></div><div>Yesterday</div></div>
+<nav>
+<span>💬 Chats</span><span>◉ Updates</span><span>📞 Calls</span><span>⚙️ Settings</span>
+</nav>
+</body>
+</html>
